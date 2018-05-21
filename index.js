@@ -3,7 +3,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function splitName(name) {
-  return name.split(" ")
+  return name.split(" ");
 }
 
 function nameToAttributes(drivers) {
