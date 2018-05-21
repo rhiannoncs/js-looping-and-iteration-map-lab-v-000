@@ -7,5 +7,5 @@ function splitName(name) {
 }
 
 function nameToAttributes(drivers) {
-  return drivers.map(function (name) { return Object.assign({}, name, {firstName: splitName(name)[0], lastName: splitName(name)[1] }) });
+  return drivers.map(function (name) { return {firstName = splitName(name)[0], lastName = splitName(name)[1]} });
 }
