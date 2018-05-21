@@ -9,3 +9,7 @@ function splitName(name) {
 function nameToAttributes(drivers) {
   return drivers.map(function (name) { return {firstName: splitName(name)[0], lastName: splitName(name)[1]} });
 }
+
+function attributesToPhrase(drivers) {
+  return drivers.map(function (attributes) {return })
+}
